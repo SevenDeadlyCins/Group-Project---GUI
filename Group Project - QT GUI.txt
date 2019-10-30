@@ -1,0 +1,9 @@
+QGridLayout *homeScreen = new QGridLayout;
+
+homeScreen->setSizeConstraint(QLayout::SetFixedSize);
+homeScreen->addWidget(drinkSlideshow, 4, 4, 4, 4);
+homeScreen->addWidget(drinkInfo, 4, 4, 4, 4);
+
+homeScreen->addwidget(randomDrinkButton, 2, 0);
+homeScreen->addwidget(showFavoritesButton, 2, 1);
+homeScreen->addwidget(searchButton, 2, 2);
